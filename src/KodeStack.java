@@ -19,10 +19,10 @@ public class KodeStack {
         // kode ini digunakan untuk memulai pop dang menghapus data teratas pada stack
         System.out.println("\nProses Pop");
         int dataDihapus1 = stackAngka.pop();
-        System.out.println("Data yang dihapus):" + dataDihapus1);
+        System.out.println("Data yang dihapus:" + dataDihapus1);
 
         int dataDihapus2 = stackAngka.pop();
-        System.out.println("Data yang dihapus):" + dataDihapus2);
+        System.out.println("Data yang dihapus:" + dataDihapus2);
 
         // kode ini untuk menampilkan isi stack terbaru setelah proses pop selesai dilakukan
         System.out.println(stackAngka + "<- elemen paling atas pada stack saat ini (Top)");
